@@ -1,0 +1,23 @@
+.infoModule {
+  margin-left: 10%;
+}
+
+.infoBooking {
+  display: flex;
+  align-items: space-between;
+  grid-template-columns: 50% 50%;
+}
+
+.bookingModule {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.reviewsModule {
+  margin-left: 12%;
+}
+
+/* .moreHomesModule {
+  display: inline;
+} */
