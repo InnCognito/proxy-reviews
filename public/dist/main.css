@@ -1,23 +1,27 @@
-.infoModule {
-  margin-left: 10%;
+.main {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1080px !important;
 }
 
-.infoBooking {
-  display: flex;
-  align-items: space-between;
-  grid-template-columns: 50% 50%;
+.infoModule {
+  width: 58% !important;
+  float: left !important;
 }
 
 .bookingModule {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding: 50px;
+  /* margin-top: 0; */
+  margin-right: 155px;
+  float: right;
+  z-index: 1;
 }
 
-.reviewsModule {
-  margin-left: 12%;
+.moreHomesModule {
+  position: absolute;
+  display: fixed;
+  margin-left: 237px;
 }
-
-/* .moreHomesModule {
-  display: inline;
-} */
