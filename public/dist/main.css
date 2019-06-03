@@ -21,7 +21,5 @@
 }
 
 .moreHomesModule {
-  position: absolute;
-  display: fixed;
-  margin-left: 237px;
+  margin-left: -27px;
 }
